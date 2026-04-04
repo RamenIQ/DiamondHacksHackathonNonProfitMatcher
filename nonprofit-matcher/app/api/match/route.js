@@ -11,19 +11,20 @@ export async function POST(request) {
       return Response.json({ error: "Organization name and mission are required." }, { status: 400 });
     }
 
-    const foundationsList = foundations
-      .map((f, i) =>
-        `${i + 1}. Name: ${f.name}
-   Focus Areas: ${f.focus_areas.join(", ")}
-   Geographic Focus: ${f.geographic_focus.join(", ")}
-   Grant Range: ${f.typical_grant_range}
-   Eligibility: ${f.eligibility.join(", ")}
-   Description: ${f.description}
-   Website: ${f.website}`
+    const grantsList = foundations
+      .map((g, i) =>
+        `${i + 1}. Grant Title: ${g.name}
+   Agency: ${g.agency}
+   Focus Areas: ${g.focus_areas.join(", ")}
+   Geographic Focus: ${g.geographic_focus.join(", ")}
+   Award Range: ${g.typical_grant_range}
+   Eligible Applicants: ${g.eligibility.join(", ")}
+   Description: ${g.description}
+   Apply: ${g.website}`
       )
       .join("\n\n");
 
-    const prompt = `You are an expert nonprofit grant researcher. Given the following nonprofit organization details, identify the top 5 best matching foundations from the provided list.
+    const prompt = `You are an expert nonprofit grant researcher. Given the following nonprofit organization details, identify the top 5 best matching federal grant opportunities from the provided list.
 
 NONPROFIT ORGANIZATION:
 - Name: ${orgName}
@@ -32,19 +33,19 @@ NONPROFIT ORGANIZATION:
 - State: ${state || "Not specified"}
 - Annual Budget Range: ${budgetRange || "Not specified"}
 
-AVAILABLE FOUNDATIONS:
-${foundationsList}
+AVAILABLE GRANT OPPORTUNITIES:
+${grantsList}
 
 Return ONLY a valid JSON array (no markdown, no code fences, no explanation) with exactly 5 objects. Each object must have these exact fields:
-- name: foundation name (string)
+- name: grant title (string)
 - match_score: score from 1-100 (number)
 - match_reason: 2-3 sentence explanation of why this is a good match (string)
-- grant_range: the foundation's typical grant range (string)
+- grant_range: the award range (string)
 - geographic_focus: array of geographic focus areas (array of strings)
-- focus_areas: array of the foundation's focus areas (array of strings)
-- website: the foundation's website URL (string)
+- focus_areas: array of the grant's focus areas (array of strings)
+- website: the grants.gov URL (string)
 
-Rank them from highest to lowest match score. Consider alignment of mission, geographic eligibility, cause area overlap, and budget fit.`;
+Rank them from highest to lowest match score. Consider alignment of mission, eligibility type (501c3 nonprofits vs others), cause area overlap, and budget fit.`;
 
     const response = await client.messages.create({
       model: "claude-opus-4-6",
