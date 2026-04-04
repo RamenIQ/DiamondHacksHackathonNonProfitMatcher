@@ -1,0 +1,3079 @@
+[
+  {
+    "ein": 475374786,
+    "name": "Foundation Foundation",
+    "address": "13954 MEADOW LN",
+    "city": "Lytle Creek",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "P32",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 203487592,
+    "name": "The Foundation Foundation",
+    "address": "7823 S 15TH ST",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": null,
+    "website": null,
+    "ntee_code": "A80",
+    "subsection_code": null,
+    "latest_filing_year": 2019,
+    "total_revenue": 41552,
+    "total_expenses": 33231,
+    "total_assets": 18789,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": 41552,
+        "total_expenses": 33231,
+        "total_assets": 18789,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=04_2021_prefixes_20-20%2F203487592_201912_990EZ_2021042418004455.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 28984,
+        "total_expenses": 46283,
+        "total_assets": 10468,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2019_prefixes_20-20%2F203487592_201812_990EZ_2019081616573490.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 19410,
+        "total_expenses": 15897,
+        "total_assets": 27767,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 20695,
+        "total_expenses": 18926,
+        "total_assets": 24254,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F203487592_201612_990EZ_2017083114695371.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 1,
+        "total_revenue": 32102,
+        "total_expenses": 27428,
+        "total_assets": 22485,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_09_EO%2F20-3487592_990EZ_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 1,
+        "total_revenue": 34227,
+        "total_expenses": 31696,
+        "total_assets": 17811,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_07_EO%2F20-3487592_990EZ_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 1,
+        "total_revenue": 43456,
+        "total_expenses": 132998,
+        "total_assets": 15280,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_09_EO%2F20-3487592_990EZ_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 0,
+        "total_revenue": 355054,
+        "total_expenses": 274639,
+        "total_assets": 106097,
+        "total_liabilities": 1275,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_06_EO%2F20-3487592_990_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 1,
+        "total_revenue": 54599,
+        "total_expenses": 35017,
+        "total_assets": 30682,
+        "total_liabilities": 6275,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_10_EO%2F20-3487592_990EZ_201112.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 932444083,
+    "name": "Springwell Foundationi",
+    "address": "1032 MILLBROOK CT",
+    "city": "Walnut Creek",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "W70",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 341840630,
+    "name": "Jadetree Foundation Charitable Foundation",
+    "address": "3900 KEY CENTER 127 PUBLIC SQUARE",
+    "city": "Cleveland",
+    "state": "OH",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T20Z",
+    "subsection_code": null,
+    "latest_filing_year": 2024,
+    "total_revenue": 212065,
+    "total_expenses": 238948,
+    "total_assets": 1019395,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2024,
+        "form_type": 2,
+        "total_revenue": 212065,
+        "total_expenses": 238948,
+        "total_assets": 1019395,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 145454,
+        "total_expenses": 65589,
+        "total_assets": 1046278,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_31-35%2F341840630_202306_990PF_2024050722379836.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 343680,
+        "total_expenses": 546702,
+        "total_assets": 966413,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2023_prefixes_30-36%2F341840630_202206_990PF_2023030821052461.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 136454,
+        "total_expenses": 4823,
+        "total_assets": 1169419,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F341840630_202106_990PF_2022042119925678.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 82130,
+        "total_expenses": 256499,
+        "total_assets": 1037788,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_32-35%2F341840630_202006_990PF_2021061118335241.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 2,
+        "total_revenue": 176128,
+        "total_expenses": 103642,
+        "total_assets": 1102008,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2017_04_PF%2F34-1840630_990PF_201606.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 166204,
+        "total_expenses": 104164,
+        "total_assets": 1029522,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_11_PF%2F34-1840630_990PF_201506.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 167613,
+        "total_expenses": 50305,
+        "total_assets": 967482,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_PF%2F34-1840630_990PF_201406.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 106842,
+        "total_expenses": 120977,
+        "total_assets": 850174,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_12_PF%2F34-1840630_990PF_201306.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 121880,
+        "total_expenses": 10114,
+        "total_assets": 864309,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_11_PF%2F34-1840630_990PF_201206.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 232288310,
+    "name": "Foundation For Leadership Foundation",
+    "address": "PO BOX 711",
+    "city": "Bala Cynwyd",
+    "state": "PA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B90",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 710804608,
+    "name": "Pipe Foundation Charitable Foundation",
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2014,
+    "total_revenue": 0,
+    "total_expenses": 490,
+    "total_assets": 2673,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 0,
+        "total_expenses": 490,
+        "total_assets": 2673,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_09_PF%2F71-0804608_990PF_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 0,
+        "total_expenses": 480,
+        "total_assets": 3163,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_06_PF%2F71-0804608_990PF_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 0,
+        "total_expenses": 525,
+        "total_assets": 3643,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_10_PF%2F71-0804608_990PF_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": 2,
+        "total_expenses": 498,
+        "total_assets": 4167,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_07_PF%2F71-0804608_990PF_201112.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 394233267,
+    "name": "Explosure Foundation Foundation",
+    "address": "103 CAMBRIDGE DR",
+    "city": "Midwest City",
+    "state": "OK",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B80",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 832624526,
+    "name": "Detv Foundation",
+    "address": "2801 LANCASTER AVE STE I",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 411982,
+    "total_expenses": 880300,
+    "total_assets": 282009,
+    "total_liabilities": 25075,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 411982,
+        "total_expenses": 880300,
+        "total_assets": 282009,
+        "total_liabilities": 25075,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 0,
+        "total_revenue": 1374904,
+        "total_expenses": 1013580,
+        "total_assets": 725252,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_82-83%2F832624526_202212_990_2024010322159860.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 0,
+        "total_revenue": 1240637,
+        "total_expenses": 869279,
+        "total_assets": 363260,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F832624526_202112_990_2023030221008892.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 883607946,
+    "name": "Logical Foundation",
+    "address": "7483 E SERENITY LN",
+    "city": "Tucson",
+    "state": "AZ",
+    "zip": null,
+    "website": null,
+    "ntee_code": "P60",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 346853245,
+    "name": "Toledo Community Foundation Seneca Foundation",
+    "address": "300 MADISON AVE STE 1300",
+    "city": "Toledo",
+    "state": "OH",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 191902,
+    "total_expenses": 316658,
+    "total_assets": 1683347,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 191902,
+        "total_expenses": 316658,
+        "total_assets": 1683347,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F346853245_202312_990PF_2024112522929711.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 49162,
+        "total_expenses": 35213,
+        "total_assets": 1808103,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_12_2023_prefixes_34-35%2F346853245_202212_990PF_2023122122151247.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 461328,
+        "total_expenses": 129046,
+        "total_assets": 1794154,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F346853245_202112_990PF_2023030921056160.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 193165,
+        "total_expenses": 135934,
+        "total_assets": 1461872,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_04_2022_prefixes_33-39%2F346853245_202012_990PF_2022042019906313.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 241136,
+        "total_expenses": 156218,
+        "total_assets": 1404641,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_32-35%2F346853245_201912_990PF_2021061018320435.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 127320,
+        "total_expenses": 127913,
+        "total_assets": 1325603,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2017_03_PF%2F34-6853245_990PF_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 113738,
+        "total_expenses": 122380,
+        "total_assets": 1326196,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_01_PF%2F34-6853245_990PF_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 133278,
+        "total_expenses": 109267,
+        "total_assets": 1334838,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_PF%2F34-6853245_990PF_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 96635,
+        "total_expenses": 101052,
+        "total_assets": 1310827,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_01_PF%2F34-6853245_990PF_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": 84723,
+        "total_expenses": 119471,
+        "total_assets": 1315244,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_11_PF%2F34-6853245_990PF_201112.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 346853246,
+    "name": "Toledo Community Foundation Algonquin Foundation",
+    "address": "300 MADISON AVE STE 1300",
+    "city": "Toledo",
+    "state": "OH",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 47830,
+    "total_expenses": 80547,
+    "total_assets": 486159,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 47830,
+        "total_expenses": 80547,
+        "total_assets": 486159,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 12568,
+        "total_expenses": 9398,
+        "total_assets": 518876,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_12_2023_prefixes_34-35%2F346853246_202212_990PF_2023122122151305.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 121357,
+        "total_expenses": 41638,
+        "total_assets": 515706,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 107706,
+        "total_expenses": 35304,
+        "total_assets": 435987,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 70073,
+        "total_expenses": 37224,
+        "total_assets": 363585,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 33613,
+        "total_expenses": 39031,
+        "total_assets": 337108,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2017_03_PF%2F34-6853246_990PF_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 30626,
+        "total_expenses": 29916,
+        "total_assets": 342526,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_02_PF%2F34-6853246_990PF_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 34061,
+        "total_expenses": 25598,
+        "total_assets": 341816,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_PF%2F34-6853246_990PF_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 26245,
+        "total_expenses": 32421,
+        "total_assets": 333353,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_01_PF%2F34-6853246_990PF_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": 23327,
+        "total_expenses": 31002,
+        "total_assets": 339529,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_11_PF%2F34-6853246_990PF_201112.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 920742101,
+    "name": "The Foundation",
+    "address": "PO BOX 341886",
+    "city": "Austin",
+    "state": "TX",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B20",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 100110359,
+    "total_expenses": 25385,
+    "total_assets": 202982507,
+    "total_liabilities": 45308,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 100110359,
+        "total_expenses": 25385,
+        "total_assets": 202982507,
+        "total_liabilities": 45308,
+        "pdf_url": null
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 650415977,
+    "name": "Dunn Foundation",
+    "address": "FOUNDATION SOURCE 501 SILVERSIDE RD",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": -8413319,
+    "total_expenses": 10570080,
+    "total_assets": 94010983,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": -8413319,
+        "total_expenses": 10570080,
+        "total_assets": 94010983,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 29919006,
+        "total_expenses": 9779269,
+        "total_assets": 112994382,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_59-65%2F650415977_202212_990PF_2023102621787189.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 19327452,
+        "total_expenses": 7088469,
+        "total_assets": 92854645,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F650415977_202112_990PF_2023010920735947.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": -1236780,
+        "total_expenses": 5022142,
+        "total_assets": 80615662,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 11332081,
+        "total_expenses": 6315367,
+        "total_assets": 86874584,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_63-72%2F650415977_201912_990PF_2021061018312161.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 2,
+        "total_revenue": 11551689,
+        "total_expenses": 339232,
+        "total_assets": 123378379,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_11_PF%2F65-0415977_990PF_201603.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 29234226,
+        "total_expenses": 9911378,
+        "total_assets": 112594822,
+        "total_liabilities": 428900,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_11_PF%2F65-0415977_990PF_201503.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 27802564,
+        "total_expenses": 7553633,
+        "total_assets": 93691824,
+        "total_liabilities": 848750,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_09_PF%2F65-0415977_990PF_201403.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": -31295751,
+        "total_expenses": 7772367,
+        "total_assets": 72594143,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_08_PF%2F65-0415977_990PF_201303.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 244129,
+        "total_expenses": 13650608,
+        "total_assets": 112072260,
+        "total_liabilities": 160000,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_02_PF%2F65-0415977_990PF_201203.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": 29007231,
+        "total_expenses": 9106181,
+        "total_assets": 125318739,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_04_PF%2F65-0415977_990PF_201103.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 411513014,
+    "name": "Benedictine Foundation",
+    "address": "6499 UNIVERSITY AVE NE 300",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 5728187,
+    "total_expenses": 2738340,
+    "total_assets": 18716580,
+    "total_liabilities": 70462,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 5728187,
+        "total_expenses": 2738340,
+        "total_assets": 18716580,
+        "total_liabilities": 70462,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 0,
+        "total_revenue": 3315760,
+        "total_expenses": 2419488,
+        "total_assets": 14894804,
+        "total_liabilities": 42178,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411513014_202206_990_2023061221439696.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 0,
+        "total_revenue": 4052107,
+        "total_expenses": 3445665,
+        "total_assets": 15163836,
+        "total_liabilities": 119606,
+        "pdf_url": null
+      },
+      {
+        "year": 2020,
+        "form_type": 0,
+        "total_revenue": 4713734,
+        "total_expenses": 4000059,
+        "total_assets": 12760528,
+        "total_liabilities": 128116,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 0,
+        "total_revenue": 4274742,
+        "total_expenses": 5057362,
+        "total_assets": 11890314,
+        "total_liabilities": 57629,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=02_2021_prefixes_38-41%2F411513014_201906_990_2021021717708376.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 0,
+        "total_revenue": 4004599,
+        "total_expenses": 8964885,
+        "total_assets": 11999464,
+        "total_liabilities": 23601,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=07_2019_prefixes_39-45%2F411513014_201806_990_2019072616524568.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 0,
+        "total_revenue": 4013790,
+        "total_expenses": 5516354,
+        "total_assets": 16274296,
+        "total_liabilities": 39021,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2018_prefixes_39-43%2F411513014_201706_990_2018082915634166.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 0,
+        "total_revenue": 5095773,
+        "total_expenses": 5628844,
+        "total_assets": 17066778,
+        "total_liabilities": 45663,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411513014_201606_990_2017101014816396.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 0,
+        "total_revenue": 6850759,
+        "total_expenses": 4389338,
+        "total_assets": 17520698,
+        "total_liabilities": 65353,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_08_EO%2F41-1513014_990_201506.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 0,
+        "total_revenue": 6622686,
+        "total_expenses": 6209136,
+        "total_assets": 15294612,
+        "total_liabilities": 22437,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_07_EO%2F41-1513014_990_201406.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 0,
+        "total_revenue": 8542406,
+        "total_expenses": 8239513,
+        "total_assets": 14194950,
+        "total_liabilities": 19802,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_05_EO%2F41-1513014_990_201306.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 0,
+        "total_revenue": 6459942,
+        "total_expenses": 4219671,
+        "total_assets": 13701269,
+        "total_liabilities": 163070,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_03_EO%2F41-1513014_990_201206.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 0,
+        "total_revenue": 5772528,
+        "total_expenses": 4772224,
+        "total_assets": 11557928,
+        "total_liabilities": 81868,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_06_EO%2F41-1513014_990_201106.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 311621613,
+    "name": "Pack Foundation",
+    "address": "1709 SEBRING HILLS DR",
+    "city": "Henderson",
+    "state": "NV",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B82Z",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 1547999,
+    "total_expenses": 308276,
+    "total_assets": 6404202,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 1547999,
+        "total_expenses": 308276,
+        "total_assets": 6404202,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 327080,
+        "total_expenses": 258577,
+        "total_assets": 5164479,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_08_2023_prefixes_23-38%2F311621613_202212_990PF_2023082421529361.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 843943,
+        "total_expenses": 279078,
+        "total_assets": 5095976,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F311621613_202112_990PF_2022102620597330.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 771193,
+        "total_expenses": 218570,
+        "total_assets": 4515819,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F311621613_202012_990PF_2021062218403713.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 760033,
+        "total_expenses": 259054,
+        "total_assets": 3963196,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=12_2020_prefixes_26-35%2F311621613_201912_990PF_2020120217463845.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 188996,
+        "total_expenses": 158600,
+        "total_assets": 2594904,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_11_PF%2F31-1621613_990PF_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 129723,
+        "total_expenses": 120524,
+        "total_assets": 2566440,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_11_PF%2F31-1621613_990PF_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 131158,
+        "total_expenses": 116094,
+        "total_assets": 2586458,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_06_PF%2F31-1621613_990PF_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": 149783,
+        "total_expenses": 116702,
+        "total_assets": 2572379,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_08_PF%2F31-1621613_990PF_201112.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 541734274,
+    "name": "Meat Foundation",
+    "address": "4201 WILSON BLVD 0604",
+    "city": "Arlington",
+    "state": "VA",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 4424296,
+    "total_expenses": 4831142,
+    "total_assets": 2323943,
+    "total_liabilities": 975603,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 4424296,
+        "total_expenses": 4831142,
+        "total_assets": 2323943,
+        "total_liabilities": 975603,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 0,
+        "total_revenue": 2532360,
+        "total_expenses": 2399616,
+        "total_assets": 2348755,
+        "total_liabilities": 593569,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_54-56%2F541734274_202212_990_2024010322159145.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 0,
+        "total_revenue": 3121077,
+        "total_expenses": 3333902,
+        "total_assets": 2858739,
+        "total_liabilities": 1236297,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F541734274_202112_990_2023051021194846.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 0,
+        "total_revenue": 4306014,
+        "total_expenses": 4010408,
+        "total_assets": 2021203,
+        "total_liabilities": 185936,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F541734274_202012_990_2022010719411474.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 0,
+        "total_revenue": 3987744,
+        "total_expenses": 3793007,
+        "total_assets": 2600656,
+        "total_liabilities": 1060995,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=02_2021_prefixes_52-56%2F541734274_201912_990_2021022417750582.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 0,
+        "total_revenue": 3048511,
+        "total_expenses": 3032872,
+        "total_assets": 2500270,
+        "total_liabilities": 1155346,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=12_2019_prefixes_48-54%2F541734274_201812_990_2019121116945552.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 0,
+        "total_revenue": 3018344,
+        "total_expenses": 2711010,
+        "total_assets": 2247933,
+        "total_liabilities": 918648,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=12_2018_prefixes_54-58%2F541734274_201712_990_2018121816017947.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 0,
+        "total_revenue": 2507740,
+        "total_expenses": 2205285,
+        "total_assets": 1729518,
+        "total_liabilities": 707567,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=01_2018_prefixes_54-56%2F541734274_201612_990_2018011715129673.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 0,
+        "total_revenue": 3411353,
+        "total_expenses": 3005168,
+        "total_assets": 1273310,
+        "total_liabilities": 553814,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_11_EO%2F54-1734274_990_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 0,
+        "total_revenue": 1659238,
+        "total_expenses": 1613551,
+        "total_assets": 831625,
+        "total_liabilities": 518314,
+        "pdf_url": null
+      },
+      {
+        "year": 2013,
+        "form_type": 0,
+        "total_revenue": 1920891,
+        "total_expenses": 1956469,
+        "total_assets": 651483,
+        "total_liabilities": 383859,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F54-1734274_990_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 0,
+        "total_revenue": 1702070,
+        "total_expenses": 1780544,
+        "total_assets": 680655,
+        "total_liabilities": 377453,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_10_EO%2F54-1734274_990_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 0,
+        "total_revenue": 1940089,
+        "total_expenses": 2028242,
+        "total_assets": 646802,
+        "total_liabilities": 265126,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_12_EO%2F54-1734274_990_201112.pdf"
+      },
+      {
+        "year": 2010,
+        "form_type": 0,
+        "total_revenue": 2322356,
+        "total_expenses": 2236336,
+        "total_assets": 869687,
+        "total_liabilities": 399858,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2011_12_EO%2F54-1734274_990_201012.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 853672498,
+    "name": "Celesterling Foundation",
+    "address": "4335 S VINCENNES AVE UNIT 2N",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": null,
+    "website": null,
+    "ntee_code": "F20",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 62040,
+    "total_expenses": 46640,
+    "total_assets": 15400,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 1,
+        "total_revenue": 62040,
+        "total_expenses": 46640,
+        "total_assets": 15400,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F853672498_202306_990EZ_2024040422330143.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F853672498_202206_990EZ_2023052421310277.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F853672498_202106_990EZ_2023060121349078.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 271564922,
+    "name": "Awareness Foundation",
+    "address": "7979 MANASOTA KEY RD",
+    "city": "Englewood",
+    "state": "FL",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T20",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 2302471,
+    "total_expenses": 1205256,
+    "total_assets": 4001227,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 2302471,
+        "total_expenses": 1205256,
+        "total_assets": 4001227,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 396929,
+        "total_expenses": 101590,
+        "total_assets": 2904012,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2023_prefixes_26-30%2F271564922_202211_990PF_2023112121981728.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 424096,
+        "total_expenses": 17776,
+        "total_assets": 2608673,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F271564922_202111_990PF_2022061520171304.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 184318,
+        "total_expenses": 38753,
+        "total_assets": 2252624,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_27-30%2F271564922_202011_990PF_2021061718375539.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 49159,
+        "total_expenses": 34127,
+        "total_assets": 1303372,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_27-30%2F271564922_201911_990PF_2021060918298362.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 1,
+        "total_expenses": 26049,
+        "total_assets": 1173112,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2017_01_PF%2F27-1564922_990PF_201511.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 150000,
+        "total_expenses": 64279,
+        "total_assets": 1043894,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_09_PF%2F27-1564922_990PF_201411.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 50000,
+        "total_expenses": 231426,
+        "total_assets": 958173,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_11_PF%2F27-1564922_990PF_201311.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 506980,
+        "total_expenses": 56547,
+        "total_assets": 1139599,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_08_PF%2F27-1564922_990PF_201211.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": -215793,
+        "total_expenses": 137865,
+        "total_assets": 689166,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_10_PF%2F27-1564922_990PF_201111.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 823760826,
+    "name": "Chung Foundation",
+    "address": "FOUNDATION SOURCE 501 SILVERSIDE RD",
+    "city": "Wilmington",
+    "state": "DE",
+    "zip": null,
+    "website": null,
+    "ntee_code": "P12",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 834877,
+    "total_expenses": 608421,
+    "total_assets": 1801416,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 834877,
+        "total_expenses": 608421,
+        "total_assets": 1801416,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F823760826_202312_990PF_2024060422481992.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 555214,
+        "total_expenses": 793873,
+        "total_assets": 1574960,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_82-83%2F823760826_202212_990PF_2023102521775788.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 1126858,
+        "total_expenses": 362722,
+        "total_assets": 1813619,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F823760826_202112_990PF_2023012620817867.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 652348,
+        "total_expenses": 523850,
+        "total_assets": 1049483,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F823760826_202012_990PF_2022042119919826.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 887835,
+        "total_expenses": 574145,
+        "total_assets": 920985,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_82-83%2F823760826_201912_990PF_2021061018315802.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 270549307,
+    "name": "Ujimaa Foundation",
+    "address": "835 ISABELLA ST",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B80",
+    "subsection_code": null,
+    "latest_filing_year": 2019,
+    "total_revenue": 372089,
+    "total_expenses": 399387,
+    "total_assets": 86455,
+    "total_liabilities": 1645,
+    "filing_history": [
+      {
+        "year": 2019,
+        "form_type": 0,
+        "total_revenue": 372089,
+        "total_expenses": 399387,
+        "total_assets": 86455,
+        "total_liabilities": 1645,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=04_2021_prefixes_26-27%2F270549307_201908_990_2021040517885319.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 0,
+        "total_revenue": 370866,
+        "total_expenses": 307651,
+        "total_assets": 125658,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2016,
+        "form_type": 0,
+        "total_revenue": 280250,
+        "total_expenses": 264449,
+        "total_assets": 67655,
+        "total_liabilities": 1645,
+        "pdf_url": null
+      },
+      {
+        "year": 2015,
+        "form_type": 0,
+        "total_revenue": 274982,
+        "total_expenses": 216830,
+        "total_assets": 51047,
+        "total_liabilities": 16018,
+        "pdf_url": null
+      },
+      {
+        "year": 2014,
+        "form_type": 0,
+        "total_revenue": 628767,
+        "total_expenses": 593858,
+        "total_assets": 66072,
+        "total_liabilities": 18799,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_07_EO%2F27-0549307_990_201408.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 0,
+        "total_revenue": 369697,
+        "total_expenses": 371428,
+        "total_assets": 7204,
+        "total_liabilities": 7204,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_11_EO%2F27-0549307_990_201108.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 812649898,
+    "name": "Armanino Foundation",
+    "address": "2700 CAMINO RAMON 350",
+    "city": "San Ramon",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T23",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 521753,
+    "total_expenses": 589251,
+    "total_assets": 568211,
+    "total_liabilities": 71217,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 521753,
+        "total_expenses": 589251,
+        "total_assets": 568211,
+        "total_liabilities": 71217,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 505831,
+        "total_expenses": 421713,
+        "total_assets": 537352,
+        "total_liabilities": 15251,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2023_prefixes_81-82%2F812649898_202212_990PF_2023112422012588.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 393633,
+        "total_expenses": 359310,
+        "total_assets": 520833,
+        "total_liabilities": 8500,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2023_prefixes_80-82%2F812649898_202112_990PF_2023051521232015.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 414017,
+        "total_expenses": 248021,
+        "total_assets": 428341,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 295684,
+        "total_expenses": 224543,
+        "total_assets": 261739,
+        "total_liabilities": 3447,
+        "pdf_url": null
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 474734762,
+    "name": "Seenfire Foundation",
+    "address": "PO BOX 80411",
+    "city": "San Marino",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "A02",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 454259,
+    "total_expenses": 276450,
+    "total_assets": 178588,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 454259,
+        "total_expenses": 276450,
+        "total_assets": 178588,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 0,
+        "total_revenue": 426254,
+        "total_expenses": 481047,
+        "total_assets": 779,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_47-47%2F474734762_202212_990_2024011022206559.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 0,
+        "total_revenue": 405004,
+        "total_expenses": 361152,
+        "total_assets": 55572,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F474734762_202112_990_2023020620916951.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 0,
+        "total_revenue": 284230,
+        "total_expenses": 272573,
+        "total_assets": 11720,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": 41398,
+        "total_expenses": 78002,
+        "total_assets": 63,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=10_2020_prefixes_47-52%2F474734762_201912_990EZ_2020100517350053.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 77166,
+        "total_expenses": 40672,
+        "total_assets": 36565,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=05_2019_prefixes_47-51%2F474734762_201812_990EZ_2019052316336798.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 76998,
+        "total_expenses": 77001,
+        "total_assets": 71,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2018_prefixes_47-47%2F474734762_201712_990EZ_2018083015638986.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 69858,
+        "total_expenses": 70319,
+        "total_assets": 74,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F474734762_201612_990EZ_2017083014688485.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 1,
+        "total_revenue": 31436,
+        "total_expenses": 30901,
+        "total_assets": 535,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_09_EO%2F47-4734762_990EZ_201512.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 833372048,
+    "name": "Minaret Foundation",
+    "address": "19902 SONTERRA LN",
+    "city": "Richmond",
+    "state": "TX",
+    "zip": null,
+    "website": null,
+    "ntee_code": "P20",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 185198,
+    "total_expenses": 177706,
+    "total_assets": 15969,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 1,
+        "total_revenue": 185198,
+        "total_expenses": 177706,
+        "total_assets": 15969,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F833372048_202312_990EZ_2025032723284345.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 109358,
+        "total_expenses": 113793,
+        "total_assets": 8477,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_83-84%2F833372048_202212_990EZ_2023101721722518.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 260907375,
+    "name": "Shora Foundation",
+    "address": "2425 MARTIN LUTHER KING JR AVE",
+    "city": "Knoxville",
+    "state": "TN",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T30",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 310015,
+    "total_expenses": 309362,
+    "total_assets": 53129,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 310015,
+        "total_expenses": 309362,
+        "total_assets": 53129,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F260907375_202312_990_2024061122519625.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 0,
+        "total_revenue": 400196,
+        "total_expenses": 403160,
+        "total_assets": 28804,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F260907375_202212_990_2023082921568986.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 0,
+        "total_revenue": 226004,
+        "total_expenses": 231176,
+        "total_assets": 41183,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F260907375_202112_990_2023012620827294.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 1,
+        "total_revenue": 162509,
+        "total_expenses": 135490,
+        "total_assets": 46355,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_08_2022_prefixes_23-26%2F260907375_202012_990EZ_2022080320270214.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": 94144,
+        "total_expenses": 74778,
+        "total_assets": 19336,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2021_prefixes_20-27%2F260907375_201912_990EZ_2021111719151500.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 1,
+        "total_revenue": 6755,
+        "total_expenses": 3989,
+        "total_assets": 2765,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_03_EO%2F26-0907375_990EO_201112.pdf"
+      },
+      {
+        "year": 2010,
+        "form_type": 1,
+        "total_revenue": 6692,
+        "total_expenses": 6511,
+        "total_assets": 181,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2011_10_EO%2F26-0907375_990EZ_201012.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 680363273,
+    "name": "Seaoc Foundation",
+    "address": "1215 K ST STE 1100",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "U42",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 171734,
+    "total_expenses": 103444,
+    "total_assets": 424506,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 1,
+        "total_revenue": 171734,
+        "total_expenses": 103444,
+        "total_assets": 424506,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_62-74%2F680363273_202312_990EZ_2024052922442406.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 42977,
+        "total_expenses": 35053,
+        "total_assets": 303101,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_12_2023_prefixes_62-72%2F680363273_202212_990EZ_2023121922134397.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 1,
+        "total_revenue": 176944,
+        "total_expenses": 135057,
+        "total_assets": 358184,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F680363273_202112_990EZ_2023012620823181.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 1,
+        "total_revenue": 37205,
+        "total_expenses": 44822,
+        "total_assets": 316297,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": 73821,
+        "total_expenses": 71265,
+        "total_assets": 271234,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_68-73%2F680363273_201912_990EZ_2021051918139455.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 26973,
+        "total_expenses": 24252,
+        "total_assets": 229236,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=11_2019_prefixes_59-71%2F680363273_201812_990EZ_2019110116810539.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 71638,
+        "total_expenses": 28771,
+        "total_assets": 238872,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=12_2018_prefixes_61-68%2F680363273_201712_990EZ_2018122116034133.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 41127,
+        "total_expenses": 29862,
+        "total_assets": 196005,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F680363273_201612_990EZ_2017090114697781.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 1,
+        "total_revenue": 22281,
+        "total_expenses": 21255,
+        "total_assets": 184740,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_12_EO%2F68-0363273_990EZ_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 1,
+        "total_revenue": 121547,
+        "total_expenses": 29936,
+        "total_assets": 197476,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_08_EO%2F68-0363273_990EZ_201412.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 271261375,
+    "name": "Transcend Foundation",
+    "address": "421 W BROADWAY APT 2139",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "N60",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 161957,
+    "total_expenses": 240882,
+    "total_assets": 18218,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 161957,
+        "total_expenses": 240882,
+        "total_assets": 18218,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 179261,
+        "total_expenses": 211991,
+        "total_assets": 97143,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_12_2023_prefixes_26-27%2F271261375_202212_990EZ_2023121522129810.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 0,
+        "total_revenue": 208402,
+        "total_expenses": 128472,
+        "total_assets": 129873,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F271261375_202112_990_2023020220881094.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 1,
+        "total_revenue": 64427,
+        "total_expenses": 22737,
+        "total_assets": 49943,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 11650,
+        "total_expenses": 7000,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2021_prefixes_27-36%2F271261375_201812_990EZ_2021111719165259.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 2493,
+        "total_expenses": 970,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 3500,
+        "total_expenses": 5501,
+        "total_assets": 492,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F271261375_201612_990EZ_2022081220278282.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 1,
+        "total_revenue": 9520,
+        "total_expenses": 8232,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2021_prefixes_27-34%2F271261375_201412_990EA_2021080518688073.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 873941038,
+    "name": "Obinnah Foundation",
+    "address": "18555 E SMOKY HILL RD UNIT 461171",
+    "city": "Aurora",
+    "state": "CO",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T22",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 16824,
+    "total_expenses": 55446,
+    "total_assets": 1126524,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 16824,
+        "total_expenses": 55446,
+        "total_assets": 1126524,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 20000,
+        "total_expenses": 71854,
+        "total_assets": 1165146,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_87-90%2F873941038_202212_990PF_2023102421772101.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 1300000,
+        "total_expenses": 83000,
+        "total_assets": 1217000,
+        "total_liabilities": 1,
+        "pdf_url": null
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 884138569,
+    "name": "Jk Foundation",
+    "address": "1695 E RAINFOREST RD",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T20",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 72301,
+    "total_expenses": 43352,
+    "total_assets": 28949,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 72301,
+        "total_expenses": 43352,
+        "total_assets": 28949,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 1,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 1,
+        "pdf_url": null
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 821406941,
+    "name": "Napipa Foundation",
+    "address": "70 W HEDDING ST",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B03",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 174778,
+    "total_expenses": 33333,
+    "total_assets": 250637,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 0,
+        "total_revenue": 174778,
+        "total_expenses": 33333,
+        "total_assets": 250637,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 0,
+        "total_revenue": 106401,
+        "total_expenses": 63824,
+        "total_assets": 109192,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_09_2023_prefixes_82-83%2F821406941_202212_990_2023091121658825.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 273951660,
+    "name": "Prism Foundation",
+    "address": "PO BOX 22155",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "R112",
+    "subsection_code": null,
+    "latest_filing_year": 2024,
+    "total_revenue": 68143,
+    "total_expenses": 84581,
+    "total_assets": 120222,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2024,
+        "form_type": 1,
+        "total_revenue": 68143,
+        "total_expenses": 84581,
+        "total_assets": 120222,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2023,
+        "form_type": 1,
+        "total_revenue": 60050,
+        "total_expenses": 73777,
+        "total_assets": 136728,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2023_prefixes_26-30%2F273951660_202305_990EZ_2023112021966768.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 67834,
+        "total_expenses": 70857,
+        "total_assets": 150446,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2021,
+        "form_type": 1,
+        "total_revenue": 90567,
+        "total_expenses": 78792,
+        "total_assets": 153469,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2020,
+        "form_type": 1,
+        "total_revenue": 96841,
+        "total_expenses": 93407,
+        "total_assets": 118694,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_27-30%2F273951660_202005_990EZ_2021050718079143.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 125167,
+        "total_expenses": 73247,
+        "total_assets": 115261,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=11_2019_prefixes_26-31%2F273951660_201812_990EZ_2019111816860728.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 18581,
+        "total_expenses": 3777,
+        "total_assets": 63340,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 96388,
+        "total_expenses": 105813,
+        "total_assets": 48536,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=07_2018_prefixes_26-30%2F273951660_201712_990EZ_2018073115553968.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 541824272,
+    "name": "Asmc Foundation",
+    "address": "5225 WISCONSIN AVE NW STE 316",
+    "city": "Washington",
+    "state": "DC",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B99",
+    "subsection_code": null,
+    "latest_filing_year": 2022,
+    "total_revenue": 514,
+    "total_expenses": 156735,
+    "total_assets": 1030633,
+    "total_liabilities": 304,
+    "filing_history": [
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 514,
+        "total_expenses": 156735,
+        "total_assets": 1030633,
+        "total_liabilities": 304,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_52-58%2F541824272_202212_990PF_2024021622286055.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 29750,
+        "total_expenses": 155057,
+        "total_assets": 1188349,
+        "total_liabilities": 1799,
+        "pdf_url": null
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 97700,
+        "total_expenses": 66617,
+        "total_assets": 1311857,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_54-56%2F541824272_202012_990PF_2024011722244751.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": -35856,
+        "total_expenses": 103264,
+        "total_assets": 1280781,
+        "total_liabilities": 7,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2022_prefixes_47-58%2F541824272_201912_990PF_2022013119582294.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 5337,
+        "total_expenses": 47708,
+        "total_assets": 1524867,
+        "total_liabilities": 2399,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_12_PF%2F54-1824272_990PF_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": -474988,
+        "total_expenses": 63506,
+        "total_assets": 1597907,
+        "total_liabilities": 33068,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_12_PF%2F54-1824272_990PF_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 307602,
+        "total_expenses": 42596,
+        "total_assets": 2139016,
+        "total_liabilities": 35683,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_PF%2F54-1824272_990PF_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 191987,
+        "total_expenses": 56825,
+        "total_assets": 1893563,
+        "total_liabilities": 55236,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_12_PF%2F54-1824272_990PF_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 0,
+        "total_revenue": 65059,
+        "total_expenses": 208151,
+        "total_assets": 1775530,
+        "total_liabilities": 76029,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_12_EO%2F54-1824272_990_201112.pdf"
+      },
+      {
+        "year": 2010,
+        "form_type": 0,
+        "total_revenue": 41927,
+        "total_expenses": 122488,
+        "total_assets": 1954390,
+        "total_liabilities": 94324,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2011_12_EO%2F54-1824272_990_201012.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 680370324,
+    "name": "Ael Foundation",
+    "address": "PO BOX 1707",
+    "city": "Los Altos",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T20Z",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 35000,
+    "total_expenses": 9799,
+    "total_assets": 44891,
+    "total_liabilities": 1,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 2,
+        "total_revenue": 35000,
+        "total_expenses": 9799,
+        "total_assets": 44891,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 2,
+        "total_revenue": 35000,
+        "total_expenses": 20257,
+        "total_assets": 19690,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_65-74%2F680370324_202212_990PF_2023102521780434.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 2,
+        "total_revenue": 35000,
+        "total_expenses": 31951,
+        "total_assets": 4947,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2020,
+        "form_type": 2,
+        "total_revenue": 35000,
+        "total_expenses": 33355,
+        "total_assets": 1898,
+        "total_liabilities": 1,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 2,
+        "total_revenue": 35033,
+        "total_expenses": 35179,
+        "total_assets": 253,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2020_prefixes_62-74%2F680370324_201912_990PR_2020082617261110.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 2,
+        "total_revenue": 21010,
+        "total_expenses": 20473,
+        "total_assets": 1344,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_08_PF%2F68-0370324_990PF_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 2,
+        "total_revenue": 20008,
+        "total_expenses": 20610,
+        "total_assets": 807,
+        "total_liabilities": 1,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_06_PF%2F68-0370324_990PF_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 2,
+        "total_revenue": 21005,
+        "total_expenses": 20170,
+        "total_assets": 1409,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_05_PF%2F68-0370324_990PF_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 2,
+        "total_revenue": 20009,
+        "total_expenses": 20439,
+        "total_assets": 574,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2013_05_PF%2F68-0370324_990PF_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 2,
+        "total_revenue": 20023,
+        "total_expenses": 20202,
+        "total_assets": 1004,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2012_04_PF%2F68-0370324_990PF_201112.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 208645308,
+    "name": "Daca Foundation",
+    "address": "1120 COMMERCE PARK DR STE C",
+    "city": "Dewitt",
+    "state": "MI",
+    "zip": null,
+    "website": null,
+    "ntee_code": "A20",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 474053945,
+    "name": "Rozellestrong Foundation",
+    "address": "415 LAGUNITAS AVE APT 309",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "H12",
+    "subsection_code": null,
+    "latest_filing_year": 2019,
+    "total_revenue": 1021,
+    "total_expenses": 768,
+    "total_assets": 3335,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": 1021,
+        "total_expenses": 768,
+        "total_assets": 3335,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=11_2019_prefixes_46-47%2F474053945_201905_990EZ_2019111316841285.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 4041,
+        "total_expenses": 29709,
+        "total_assets": 3082,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=04_2019_prefixes_45-47%2F474053945_201805_990EZ_2019041516218484.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 45536,
+        "total_expenses": 23908,
+        "total_assets": 28749,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=01_2018_prefixes_47-47%2F474053945_201705_990ER_2018012415143834.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 61121,
+        "total_expenses": 54000,
+        "total_assets": 7121,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2017_01_EO%2F47-4053945_990ER_201605.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 822731994,
+    "name": "2240 Foundation",
+    "address": "290 WOODY DR",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B40",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 812584082,
+    "name": "Albany11 Foundation",
+    "address": "100 TALLOKAS CT APT 122",
+    "city": "Leesburg",
+    "state": "GA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T99",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 462274751,
+    "name": "Alyden Foundation",
+    "address": "1294 LA SUBIDA CT",
+    "city": "Riverside",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "E80",
+    "subsection_code": null,
+    "latest_filing_year": 2022,
+    "total_revenue": 29637,
+    "total_expenses": 13727,
+    "total_assets": 46178,
+    "total_liabilities": 1356,
+    "filing_history": [
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 29637,
+        "total_expenses": 13727,
+        "total_assets": 46178,
+        "total_liabilities": 1356,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_09_2023_prefixes_45-47%2F462274751_202212_990EZ_2023090721642588.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 1,
+        "total_revenue": 29739,
+        "total_expenses": 20577,
+        "total_assets": 29706,
+        "total_liabilities": 794,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2023_prefixes_46-74%2F462274751_202112_990EZ_2023012320787482.pdf"
+      },
+      {
+        "year": 2020,
+        "form_type": 1,
+        "total_revenue": 70180,
+        "total_expenses": 56948,
+        "total_assets": 30791,
+        "total_liabilities": 11041,
+        "pdf_url": null
+      },
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": 69738,
+        "total_expenses": 71988,
+        "total_assets": 11996,
+        "total_liabilities": 5478,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=04_2021_prefixes_46-46%2F462274751_201912_990EZ_2021042317998631.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 73407,
+        "total_expenses": 85115,
+        "total_assets": 16871,
+        "total_liabilities": 8103,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=11_2019_prefixes_43-46%2F462274751_201812_990EZ_2019111516854730.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 77978,
+        "total_expenses": 90791,
+        "total_assets": 33344,
+        "total_liabilities": 12708,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=10_2018_prefixes_46-47%2F462274751_201712_990EZ_2018102215818784.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 91965,
+        "total_expenses": 58089,
+        "total_assets": 49331,
+        "total_liabilities": 15882,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F462274751_201612_990EZ_2017092914787607.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 1,
+        "total_revenue": 53495,
+        "total_expenses": 44664,
+        "total_assets": 18399,
+        "total_liabilities": 19187,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_09_EO%2F46-2274751_990EZ_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 1,
+        "total_revenue": 60261,
+        "total_expenses": 55738,
+        "total_assets": 14847,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_07_EO%2F46-2274751_990EZ_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 1,
+        "total_revenue": 44216,
+        "total_expenses": 33892,
+        "total_assets": 10324,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_EO%2F46-2274751_990EZ_201312.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 821141301,
+    "name": "Demoore Foundation",
+    "address": "335 SOUTHWIND CIR",
+    "city": "Roswell",
+    "state": "GA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B80",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 852461256,
+    "name": "Destinys Foundation",
+    "address": "50 UNIVERSITY ST APT 1305",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "B90",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 861279301,
+    "name": "Earl Foundation",
+    "address": "7300 MABELVALE PIKE",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": null,
+    "website": null,
+    "ntee_code": "O51",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 831156190,
+    "name": "Firemouse Foundation",
+    "address": "29297 BEACHCOMBER DR",
+    "city": "Menifee",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T50",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 463769137,
+    "name": "G3 Foundation",
+    "address": "350 FISCHER AVE FRNT",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "Q99",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 15908,
+    "total_expenses": 41068,
+    "total_assets": 69129,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 1,
+        "total_revenue": 15908,
+        "total_expenses": 41068,
+        "total_assets": 69129,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 70584,
+        "total_expenses": 31314,
+        "total_assets": 94289,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_46-46%2F463769137_202212_990EZ_2023101721724454.pdf"
+      },
+      {
+        "year": 2021,
+        "form_type": 1,
+        "total_revenue": 26631,
+        "total_expenses": 24476,
+        "total_assets": 20979,
+        "total_liabilities": 0,
+        "pdf_url": null
+      },
+      {
+        "year": 2020,
+        "form_type": 1,
+        "total_revenue": 14321,
+        "total_expenses": 22372,
+        "total_assets": 18824,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2022_prefixes_46-47%2F463769137_202012_990EZ_2022102420514286.pdf"
+      },
+      {
+        "year": 2019,
+        "form_type": 1,
+        "total_revenue": -30250,
+        "total_expenses": 21621,
+        "total_assets": 26875,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_46-47%2F463769137_201912_990EZ_2021060118227611.pdf"
+      },
+      {
+        "year": 2018,
+        "form_type": 0,
+        "total_revenue": 205572,
+        "total_expenses": 146660,
+        "total_assets": 78746,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=01_2021_prefixes_45-47%2F463769137_201812_990_2021012117621772.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 0,
+        "total_revenue": 255144,
+        "total_expenses": 576555,
+        "total_assets": 19834,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=07_2019_prefixes_45-46%2F463769137_201712_990_2019071216482856.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 167224,
+        "total_expenses": 47552,
+        "total_assets": 341246,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F463769137_201612_990EZ_2017092614770391.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 1,
+        "total_revenue": 79042,
+        "total_expenses": 15803,
+        "total_assets": 221574,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_10_EO%2F46-3769137_990EZ_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 1,
+        "total_revenue": 109990,
+        "total_expenses": 14287,
+        "total_assets": 158335,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_01_EO%2F13-105902_92626_463769137.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 1,
+        "total_revenue": 70562,
+        "total_expenses": 7930,
+        "total_assets": 62632,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_07_EO%2F46-3769137_990EZ_201312.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 812280820,
+    "name": "Hfh Foundation",
+    "address": "813 SUGARLOAF CT",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": null,
+    "website": null,
+    "ntee_code": "N65",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 815073709,
+    "name": "Jgc Foundation",
+    "address": "2563 N BUENA VISTA ST",
+    "city": "Burbank",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "F20",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 815122134,
+    "name": "Justone Foundation",
+    "address": "PO BOX 13463",
+    "city": "Greensboro",
+    "state": "NC",
+    "zip": null,
+    "website": null,
+    "ntee_code": null,
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 461143093,
+    "name": "Kenny Foundation",
+    "address": "11130 PISCATAWAY RD",
+    "city": "Clinton",
+    "state": "MD",
+    "zip": null,
+    "website": null,
+    "ntee_code": "M42",
+    "subsection_code": null,
+    "latest_filing_year": 2016,
+    "total_revenue": 0,
+    "total_expenses": 0,
+    "total_assets": 1,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=01_2018_prefixes_45-46%2F461143093_201612_990ER_2018012415143830.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 852270863,
+    "name": "Kerygma Foundation",
+    "address": "2613 BONNIE OAKS DR SW",
+    "city": "Huntsville",
+    "state": "AL",
+    "zip": null,
+    "website": null,
+    "ntee_code": "X80",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 454105530,
+    "name": "Krd Foundation",
+    "address": "4894 KINGS RIDGE BLVD",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": null,
+    "website": null,
+    "ntee_code": "N12",
+    "subsection_code": null,
+    "latest_filing_year": 2023,
+    "total_revenue": 65556,
+    "total_expenses": 60862,
+    "total_assets": 35106,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2023,
+        "form_type": 1,
+        "total_revenue": 65556,
+        "total_expenses": 60862,
+        "total_assets": 35106,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_42-45%2F454105530_202312_990EZ_2024052222414498.pdf"
+      },
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 65315,
+        "total_expenses": 53510,
+        "total_assets": 30412,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_09_2023_prefixes_39-45%2F454105530_202212_990EZ_2023090121606325.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 464636289,
+    "name": "Otr Foundation",
+    "address": "824 E 5TH ST",
+    "city": "Pueblo",
+    "state": "CO",
+    "zip": null,
+    "website": null,
+    "ntee_code": "A25",
+    "subsection_code": null,
+    "latest_filing_year": 2022,
+    "total_revenue": 56174,
+    "total_expenses": 83644,
+    "total_assets": 238307,
+    "total_liabilities": 480,
+    "filing_history": [
+      {
+        "year": 2022,
+        "form_type": 1,
+        "total_revenue": 56174,
+        "total_expenses": 83644,
+        "total_assets": 238307,
+        "total_liabilities": 480,
+        "pdf_url": null
+      },
+      {
+        "year": 2021,
+        "form_type": 1,
+        "total_revenue": 86419,
+        "total_expenses": 25450,
+        "total_assets": 218662,
+        "total_liabilities": 0,
+        "pdf_url": null
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 273038305,
+    "name": "Parrot Foundation",
+    "address": "4819 J ST",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip": null,
+    "website": null,
+    "ntee_code": "D20",
+    "subsection_code": null,
+    "latest_filing_year": 2013,
+    "total_revenue": 0,
+    "total_expenses": 0,
+    "total_assets": 1,
+    "total_liabilities": 0,
+    "filing_history": [
+      {
+        "year": 2013,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_08_EO%2F27-3038305_990EZ_201312.pdf"
+      },
+      {
+        "year": 2012,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_08_EO%2F27-3038305_990EZ_201212.pdf"
+      },
+      {
+        "year": 2011,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_08_EO%2F27-3038305_990EZ_201112.pdf"
+      },
+      {
+        "year": 2010,
+        "form_type": 1,
+        "total_revenue": 0,
+        "total_expenses": 0,
+        "total_assets": 1,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2015_08_EO%2F27-3038305_990EZ_201012.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 611616881,
+    "name": "Chariots 4 Charity Inc",
+    "address": "1207 GIOVANNI ST",
+    "city": "Deltona",
+    "state": "FL",
+    "zip": null,
+    "website": null,
+    "ntee_code": "T12",
+    "subsection_code": null,
+    "latest_filing_year": 2018,
+    "total_revenue": 22916,
+    "total_expenses": 22145,
+    "total_assets": 20253,
+    "total_liabilities": 5760,
+    "filing_history": [
+      {
+        "year": 2018,
+        "form_type": 1,
+        "total_revenue": 22916,
+        "total_expenses": 22145,
+        "total_assets": 20253,
+        "total_liabilities": 5760,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=09_2019_prefixes_59-68%2F611616881_201812_990EZ_2019090516620167.pdf"
+      },
+      {
+        "year": 2017,
+        "form_type": 1,
+        "total_revenue": 31412,
+        "total_expenses": 32807,
+        "total_assets": 20364,
+        "total_liabilities": 12943,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2018_prefixes_58-62%2F611616881_201712_990EZ_2018081415585071.pdf"
+      },
+      {
+        "year": 2016,
+        "form_type": 1,
+        "total_revenue": 82040,
+        "total_expenses": 71421,
+        "total_assets": 47476,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F611616881_201612_990EZ_2017061314515796.pdf"
+      },
+      {
+        "year": 2015,
+        "form_type": 1,
+        "total_revenue": 64921,
+        "total_expenses": 52136,
+        "total_assets": 36661,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_10_EO%2F61-1616881_990EZ_201512.pdf"
+      },
+      {
+        "year": 2014,
+        "form_type": 1,
+        "total_revenue": 91944,
+        "total_expenses": 84532,
+        "total_assets": 23876,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2016_10_EO%2F61-1616881_990EZ_201412.pdf"
+      },
+      {
+        "year": 2013,
+        "form_type": 1,
+        "total_revenue": 68578,
+        "total_expenses": 53114,
+        "total_assets": 16464,
+        "total_liabilities": 0,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F61-1616881_990EZ_201312.pdf"
+      }
+    ],
+    "source": "propublica/irs-990"
+  },
+  {
+    "ein": 920293423,
+    "name": "Community Fund",
+    "address": "2508 E WOOD ST",
+    "city": "Paris",
+    "state": "TN",
+    "zip": null,
+    "website": null,
+    "ntee_code": "W12",
+    "subsection_code": null,
+    "latest_filing_year": null,
+    "total_revenue": null,
+    "total_expenses": null,
+    "total_assets": null,
+    "total_liabilities": null,
+    "filing_history": [],
+    "source": "propublica/irs-990"
+  }
+]
