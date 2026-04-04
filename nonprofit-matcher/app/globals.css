@@ -1,26 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-background: hsl(210 20% 98%);
+  --color-foreground: hsl(220 20% 10%);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(220 20% 10%);
+
+  --color-primary: hsl(207 72% 42%);
+  --color-primary-foreground: hsl(0 0% 100%);
+
+  --color-secondary: hsl(210 20% 96%);
+  --color-secondary-foreground: hsl(220 20% 10%);
+
+  --color-muted: hsl(210 16% 93%);
+  --color-muted-foreground: hsl(215 14% 46%);
+
+  --color-accent: hsl(210 20% 96%);
+  --color-accent-foreground: hsl(220 20% 10%);
+
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+
+  --color-border: hsl(220 13% 90%);
+  --color-input: hsl(220 13% 90%);
+  --color-ring: hsl(207 72% 42%);
+
+  --color-score-high: hsl(207 72% 42%);
+  --color-score-high-bg: hsl(207 72% 92%);
+  --color-score-green: hsl(142 60% 35%);
+  --color-score-green-bg: hsl(142 60% 92%);
+  --color-score-amber: hsl(38 90% 42%);
+  --color-score-amber-bg: hsl(38 90% 92%);
+
+  --color-chip-selected: hsl(207 72% 42%);
+  --color-chip-selected-foreground: hsl(0 0% 100%);
+
+  --radius: 0.75rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(210 20% 98%);
+  color: hsl(220 20% 10%);
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
