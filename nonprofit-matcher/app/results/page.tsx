@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
-import { ArrowRight, ChevronDown, ExternalLink } from "lucide-react";
+import { ArrowRight, ChevronDown, ExternalLink, Trophy } from "lucide-react";
 
 interface Match {
   name: string;
@@ -15,10 +15,24 @@ interface Match {
   website: string;
 }
 
-function scoreStyle(score: number): string {
-  if (score >= 85) return "bg-score-high-bg text-score-high";
-  if (score >= 70) return "bg-score-green-bg text-score-green";
-  return "bg-score-amber-bg text-score-amber";
+function ScorePill({ score }: { score: number }) {
+  const style =
+    score >= 85
+      ? "bg-score-high-bg text-score-high"
+      : score >= 70
+      ? "bg-score-green-bg text-score-green"
+      : "bg-score-amber-bg text-score-amber";
+
+  return (
+    <span className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-bold ${style}`}>
+      <span
+        className={`h-1.5 w-1.5 rounded-full ${
+          score >= 85 ? "bg-score-high" : score >= 70 ? "bg-score-green" : "bg-score-amber"
+        }`}
+      />
+      {score}% match
+    </span>
+  );
 }
 
 type SortKey = "match_score" | "grant_range";
@@ -39,7 +53,6 @@ export default function MatchResults() {
 
   const sorted = [...matches].sort((a, b) => {
     if (sortBy === "match_score") return b.match_score - a.match_score;
-    // sort by lower bound of grant_range numerically
     const parse = (s: string) => parseInt(s.replace(/[^0-9]/g, "") || "0");
     return parse(b.grant_range) - parse(a.grant_range);
   });
@@ -54,7 +67,10 @@ export default function MatchResults() {
       <div className="min-h-screen bg-background">
         <TopNav currentStep={1} />
         <main className="flex items-center justify-center py-32">
-          <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" />
+          <div className="flex flex-col items-center gap-3 text-muted-foreground">
+            <div className="h-9 w-9 animate-spin rounded-full border-4 border-primary border-t-transparent" />
+            <p className="text-sm">Loading results…</p>
+          </div>
         </main>
       </div>
     );
@@ -63,84 +79,102 @@ export default function MatchResults() {
   return (
     <div className="min-h-screen bg-background">
       <TopNav currentStep={1} />
-      <main className="mx-auto max-w-5xl px-4 py-10">
-        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+
+      {/* Results header */}
+      <div className="border-b border-border bg-card px-4 py-5 shadow-sm">
+        <div className="mx-auto flex max-w-5xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h1 className="text-2xl font-semibold text-foreground">Match results</h1>
-            <p className="mt-1 text-sm text-muted-foreground">
-              Showing {matches.length} grant opportunities ranked by AI
+            <h1 className="text-xl font-bold text-foreground">
+              {matches.length} grant matches found
+            </h1>
+            <p className="mt-0.5 text-sm text-muted-foreground">
+              AI-ranked foundations aligned with your mission
             </p>
           </div>
-          <div className="relative">
+          <div className="relative w-fit">
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as SortKey)}
-              className="appearance-none rounded-lg border border-input bg-card px-3.5 py-2 pr-9 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30"
+              className="appearance-none rounded-xl border border-input bg-white px-4 py-2.5 pr-9 text-sm font-medium text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/30"
             >
               <option value="match_score">Sort by match score</option>
-              <option value="grant_range">Sort by amount</option>
+              <option value="grant_range">Sort by grant amount</option>
             </select>
             <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           </div>
         </div>
+      </div>
 
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <main className="mx-auto max-w-5xl px-4 py-8">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {sorted.map((g, i) => (
             <div
               key={g.name}
-              className={`flex flex-col rounded-2xl border border-border bg-card p-5 ${
-                i === 0 ? "border-l-4 border-l-primary" : ""
+              className={`group relative flex flex-col rounded-2xl border bg-card p-5 shadow-sm hover:shadow-md ${
+                i === 0
+                  ? "border-primary/40 ring-1 ring-primary/20"
+                  : "border-border"
               }`}
             >
-              {/* Score + amount row */}
+              {/* Top match badge */}
+              {i === 0 && (
+                <div className="absolute -top-3 left-4 flex items-center gap-1 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground shadow-md shadow-primary/25">
+                  <Trophy className="h-3 w-3" />
+                  Best match
+                </div>
+              )}
+
+              {/* Score + amount */}
               <div className="mb-3 flex items-center justify-between">
-                <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${scoreStyle(g.match_score)}`}>
-                  {g.match_score}%
-                </span>
+                <ScorePill score={g.match_score} />
                 <span className="text-xs font-semibold text-foreground">{g.grant_range}</span>
               </div>
 
-              {/* Title */}
-              <h3 className="mb-1 text-sm font-semibold leading-snug text-foreground line-clamp-2">
+              {/* Name */}
+              <h3 className="mb-2 text-sm font-semibold leading-snug text-foreground line-clamp-2">
                 {g.name}
               </h3>
 
-              {/* Focus areas */}
+              {/* Focus area tags */}
               <div className="mb-3 flex flex-wrap gap-1">
                 {g.focus_areas.slice(0, 3).map((area) => (
                   <span
                     key={area}
-                    className="rounded-full bg-secondary px-2 py-0.5 text-xs text-muted-foreground"
+                    className="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-muted-foreground"
                   >
                     {area}
                   </span>
                 ))}
               </div>
 
-              {/* Reason */}
-              <p className="mb-4 flex-1 text-xs leading-relaxed text-muted-foreground line-clamp-3">
-                "{g.match_reason}"
+              {/* Match reason */}
+              <p className="mb-3 flex-1 text-xs leading-relaxed text-muted-foreground line-clamp-3">
+                {g.match_reason}
               </p>
 
               {/* Geography */}
-              <div className="mb-4 text-xs text-muted-foreground">
-                {g.geographic_focus.join(", ")}
+              <div className="mb-4 flex items-center gap-1.5 text-xs text-muted-foreground">
+                <svg className="h-3.5 w-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span className="line-clamp-1">{g.geographic_focus.join(", ")}</span>
               </div>
 
               {/* Actions */}
               <div className="flex flex-col gap-2">
                 <button
                   onClick={() => handleDraftOutreach(g)}
-                  className="flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+                  className="flex items-center justify-center gap-1.5 rounded-xl bg-primary px-3 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm shadow-primary/20 hover:bg-primary-hover"
                 >
-                  Draft outreach
+                  Draft outreach email
                   <ArrowRight className="h-3.5 w-3.5" />
                 </button>
                 <a
                   href={g.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent"
+                  className="flex items-center justify-center gap-1.5 rounded-xl border border-border px-3 py-2 text-xs font-medium text-muted-foreground hover:bg-accent hover:text-foreground"
                 >
                   View on grants.gov
                   <ExternalLink className="h-3 w-3" />
@@ -150,10 +184,10 @@ export default function MatchResults() {
           ))}
         </div>
 
-        <div className="mt-8 text-center">
+        <div className="mt-10 text-center">
           <button
             onClick={() => router.push("/")}
-            className="text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground"
+            className="inline-flex items-center gap-1.5 rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-medium text-muted-foreground shadow-sm hover:bg-accent hover:text-foreground"
           >
             ← Start a new search
           </button>
