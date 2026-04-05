@@ -1,7 +1,16 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { foundations } from "@/data/foundations";
+import { readFileSync } from "fs";
+import { join } from "path";
 
 const client = new Anthropic();
+
+const rawGrants = JSON.parse(
+  readFileSync(join(process.cwd(), "../data/grants-1.json"), "utf-8")
+);
+const rawByOppNum = Object.fromEntries(
+  rawGrants.map((g) => [g.opportunity_number, g])
+);
 
 export async function POST(request) {
   try {
@@ -14,6 +23,7 @@ export async function POST(request) {
     const grantsList = foundations
       .map((g, i) =>
         `${i + 1}. Grant Title: ${g.name}
+   Opportunity Number: ${g.opportunity_number}
    Agency: ${g.agency}
    Focus Areas: ${g.focus_areas.join(", ")}
    Geographic Focus: ${g.geographic_focus.join(", ")}
@@ -38,6 +48,7 @@ ${grantsList}
 
 Return ONLY a valid JSON array (no markdown, no code fences, no explanation) with exactly 5 objects. Each object must have these exact fields:
 - name: grant title (string)
+- opportunity_number: the opportunity number exactly as listed (string)
 - match_score: score from 1-100 (number)
 - match_reason: 2-3 sentence explanation of why this is a good match (string)
 - grant_range: the award range (string)
@@ -58,7 +69,12 @@ Rank them from highest to lowest match score. Consider alignment of mission, eli
     // Strip markdown code fences if present
     text = text.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "").trim();
 
-    const matches = JSON.parse(text);
+    const aiMatches = JSON.parse(text);
+
+    const matches = aiMatches.map((match) => {
+      const raw = rawByOppNum[match.opportunity_number] || null;
+      return { ...match, grantDetail: raw };
+    });
 
     return Response.json(matches);
   } catch (error) {

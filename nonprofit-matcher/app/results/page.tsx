@@ -3,16 +3,39 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
+import GrantDetailModal from "@/components/GrantDetailModal";
 import { ArrowRight, ChevronDown, ExternalLink, Trophy } from "lucide-react";
+
+interface GrantDetail {
+  id: string;
+  opportunity_number: string;
+  title: string;
+  agency_code: string;
+  agency_name: string | null;
+  status: string;
+  posted_date: string;
+  closing_date: string | null;
+  award_floor: string;
+  award_ceiling: string;
+  cost_sharing: boolean;
+  applicant_types: { id: string; description: string }[];
+  funding_instruments: { id: string; description: string }[];
+  funding_categories: { id: string; description: string }[];
+  aln_codes: string[];
+  description: string;
+  source: string;
+}
 
 interface Match {
   name: string;
+  opportunity_number: string;
   match_score: number;
   match_reason: string;
   grant_range: string;
   geographic_focus: string[];
   focus_areas: string[];
   website: string;
+  grantDetail: GrantDetail | null;
 }
 
 function ScorePill({ score }: { score: number }) {
@@ -41,6 +64,7 @@ export default function MatchResults() {
   const router = useRouter();
   const [matches, setMatches] = useState<Match[]>([]);
   const [sortBy, setSortBy] = useState<SortKey>("match_score");
+  const [selectedGrant, setSelectedGrant] = useState<GrantDetail | null>(null);
 
   useEffect(() => {
     const raw = sessionStorage.getItem("matchResults");
@@ -62,6 +86,15 @@ export default function MatchResults() {
     router.push("/outreach");
   };
 
+  const handleDraftOutreachFromModal = (grant: GrantDetail) => {
+    const match = matches.find((m) => m.grantDetail?.id === grant.id);
+    if (match) {
+      sessionStorage.setItem("selectedGrant", JSON.stringify(match));
+    }
+    setSelectedGrant(null);
+    router.push("/outreach");
+  };
+
   if (!matches.length) {
     return (
       <div className="min-h-screen bg-background">
@@ -79,6 +112,15 @@ export default function MatchResults() {
   return (
     <div className="min-h-screen bg-background">
       <TopNav currentStep={1} />
+
+      {/* Grant detail modal */}
+      {selectedGrant && (
+        <GrantDetailModal
+          grant={selectedGrant}
+          onClose={() => setSelectedGrant(null)}
+          onDraftOutreach={handleDraftOutreachFromModal}
+        />
+      )}
 
       {/* Results header */}
       <div className="border-b border-border bg-card px-4 py-5 shadow-sm">
@@ -130,9 +172,25 @@ export default function MatchResults() {
                 <span className="text-xs font-semibold text-foreground">{g.grant_range}</span>
               </div>
 
-              {/* Name */}
-              <h3 className="mb-2 text-sm font-semibold leading-snug text-foreground line-clamp-2">
-                {g.name}
+              {/* Name — hyperlink if we have a URL, opens modal if we have detail */}
+              <h3 className="mb-2 text-sm font-semibold leading-snug line-clamp-2">
+                {g.grantDetail ? (
+                  <button
+                    onClick={() => setSelectedGrant(g.grantDetail!)}
+                    className="text-left text-primary underline-offset-2 hover:underline"
+                  >
+                    {g.name}
+                  </button>
+                ) : (
+                  <a
+                    href={g.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline-offset-2 hover:underline"
+                  >
+                    {g.name}
+                  </a>
+                )}
               </h3>
 
               {/* Focus area tags */}
@@ -170,15 +228,25 @@ export default function MatchResults() {
                   Draft outreach email
                   <ArrowRight className="h-3.5 w-3.5" />
                 </button>
-                <a
-                  href={g.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-1.5 rounded-xl border border-border px-3 py-2 text-xs font-medium text-muted-foreground hover:bg-accent hover:text-foreground"
-                >
-                  View on grants.gov
-                  <ExternalLink className="h-3 w-3" />
-                </a>
+                {g.grantDetail ? (
+                  <button
+                    onClick={() => setSelectedGrant(g.grantDetail!)}
+                    className="flex items-center justify-center gap-1.5 rounded-xl border border-border px-3 py-2 text-xs font-medium text-muted-foreground hover:bg-accent hover:text-foreground"
+                  >
+                    View grant details
+                    <ExternalLink className="h-3 w-3" />
+                  </button>
+                ) : (
+                  <a
+                    href={g.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-1.5 rounded-xl border border-border px-3 py-2 text-xs font-medium text-muted-foreground hover:bg-accent hover:text-foreground"
+                  >
+                    View on grants.gov
+                    <ExternalLink className="h-3 w-3" />
+                  </a>
+                )}
               </div>
             </div>
           ))}

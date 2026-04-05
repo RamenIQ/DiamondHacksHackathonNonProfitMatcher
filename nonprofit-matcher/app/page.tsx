@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
 import { ArrowRight, ChevronDown, Building2, FileText, MapPin, DollarSign } from "lucide-react";
@@ -48,7 +48,24 @@ export default function OrgProfile() {
     budgetRange: "",
   });
   const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(0);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!loading) {
+      setProgress(0);
+      return;
+    }
+    setProgress(0);
+    const startTime = Date.now();
+    const targetDuration = 6000;
+    const interval = setInterval(() => {
+      const elapsed = Date.now() - startTime;
+      const pct = Math.min(88, (elapsed / targetDuration) * 88);
+      setProgress(pct);
+    }, 80);
+    return () => clearInterval(interval);
+  }, [loading]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -62,6 +79,7 @@ export default function OrgProfile() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Something went wrong");
+      setProgress(100);
       sessionStorage.setItem("matchResults", JSON.stringify(data));
       sessionStorage.setItem("orgData", JSON.stringify(form));
       router.push("/results");
@@ -75,6 +93,45 @@ export default function OrgProfile() {
   return (
     <div className="min-h-screen bg-background">
       <TopNav currentStep={0} />
+
+      {/* Loading overlay */}
+      {loading && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm">
+          <div className="mx-4 w-full max-w-sm rounded-2xl border border-border bg-card p-8 shadow-xl text-center">
+            <div className="mb-5 flex items-center justify-center">
+              <div className="relative flex h-16 w-16 items-center justify-center">
+                <svg className="absolute inset-0 h-16 w-16 -rotate-90" viewBox="0 0 64 64">
+                  <circle
+                    cx="32" cy="32" r="28"
+                    fill="none" stroke="currentColor" strokeWidth="4"
+                    className="text-primary/10"
+                  />
+                  <circle
+                    cx="32" cy="32" r="28"
+                    fill="none" stroke="currentColor" strokeWidth="4"
+                    strokeLinecap="round"
+                    strokeDasharray={`${2 * Math.PI * 28}`}
+                    strokeDashoffset={`${2 * Math.PI * 28 * (1 - progress / 100)}`}
+                    className="text-primary transition-all duration-100 ease-linear"
+                  />
+                </svg>
+                <span className="text-sm font-bold text-primary">{Math.round(progress)}%</span>
+              </div>
+            </div>
+            <h3 className="mb-1 text-base font-semibold text-foreground">Finding your best matches</h3>
+            <p className="mb-5 text-sm text-muted-foreground">
+              Our AI is scanning grants and ranking them by how well they align with your mission…
+            </p>
+            <div className="relative h-2 w-full overflow-hidden rounded-full bg-primary/10">
+              <div
+                className="absolute inset-y-0 left-0 rounded-full bg-primary transition-all duration-100 ease-linear"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+            <p className="mt-3 text-xs text-muted-foreground">This usually takes 5–15 seconds</p>
+          </div>
+        </div>
+      )}
 
       {/* Hero */}
       <div className="bg-gradient-to-b from-primary/5 to-background border-b border-border/50 px-4 py-10 text-center">
