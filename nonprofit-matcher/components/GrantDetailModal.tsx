@@ -82,11 +82,11 @@ function stripHtml(html: string): string {
 function getBadgeStyle(status: string): { bg: string; text: string } {
   switch (status?.toLowerCase()) {
     case "posted":
-      return { bg: "#EAF3DE", text: "#27500A" };
+      return { bg: "#dcfce7", text: "#166534" };
     case "closed":
-      return { bg: "#FEE2E2", text: "#991B1B" };
+      return { bg: "#fee2e2", text: "#991b1b" };
     case "forecasted":
-      return { bg: "#FEF3C7", text: "#92400E" };
+      return { bg: "#fef9c3", text: "#854d0e" };
     default:
       return { bg: "#f3f4f6", text: "#6b7280" };
   }
@@ -250,8 +250,8 @@ export default function GrantDetailModal({ grant, onClose, onDraftOutreach }: Gr
                 {/* Funding instrument */}
                 <span
                   style={{
-                    backgroundColor: "#E6F1FB",
-                    color: "#0C447C",
+                    backgroundColor: "#dcfce7",
+                    color: "#166534",
                     borderRadius: 9999,
                     padding: "3px 10px",
                     fontSize: 11,
@@ -467,7 +467,7 @@ export default function GrantDetailModal({ grant, onClose, onDraftOutreach }: Gr
                       width: 16,
                       height: 16,
                       borderRadius: "50%",
-                      backgroundColor: "#EAF3DE",
+                      backgroundColor: "#dcfce7",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -477,7 +477,7 @@ export default function GrantDetailModal({ grant, onClose, onDraftOutreach }: Gr
                     <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
                       <path
                         d="M1 4l2.5 2.5L9 1"
-                        stroke="#27500A"
+                        stroke="#166534"
                         strokeWidth="1.5"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -515,7 +515,7 @@ export default function GrantDetailModal({ grant, onClose, onDraftOutreach }: Gr
                 style={{
                   marginTop: 6,
                   fontSize: 13,
-                  color: "#1d6fb8",
+                  color: "#166534",
                   fontWeight: 500,
                   background: "none",
                   border: "none",
@@ -562,7 +562,7 @@ export default function GrantDetailModal({ grant, onClose, onDraftOutreach }: Gr
           <button
             onClick={() => onDraftOutreach(grant)}
             style={{
-              backgroundColor: "#1d6fb8",
+              backgroundColor: "#16a34a",
               color: "white",
               border: "none",
               borderRadius: 8,
@@ -571,8 +571,8 @@ export default function GrantDetailModal({ grant, onClose, onDraftOutreach }: Gr
               fontWeight: 500,
               cursor: "pointer",
             }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#185FA5")}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#1d6fb8")}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#15803d")}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#16a34a")}
           >
             Draft outreach →
           </button>

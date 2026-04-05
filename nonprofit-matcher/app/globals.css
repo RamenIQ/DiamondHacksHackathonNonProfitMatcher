@@ -4,40 +4,40 @@
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
 
-  --color-background: hsl(220 25% 97%);
-  --color-foreground: hsl(222 25% 10%);
+  --color-background: hsl(0 0% 98%);
+  --color-foreground: hsl(0 0% 7%);
 
   --color-card: hsl(0 0% 100%);
-  --color-card-foreground: hsl(222 25% 10%);
+  --color-card-foreground: hsl(0 0% 7%);
 
-  --color-primary: hsl(234 76% 58%);
+  --color-primary: hsl(142 60% 40%);
   --color-primary-foreground: hsl(0 0% 100%);
-  --color-primary-hover: hsl(234 76% 52%);
+  --color-primary-hover: hsl(142 60% 34%);
 
-  --color-secondary: hsl(220 20% 96%);
-  --color-secondary-foreground: hsl(222 25% 10%);
+  --color-secondary: hsl(142 20% 95%);
+  --color-secondary-foreground: hsl(0 0% 7%);
 
-  --color-muted: hsl(220 16% 93%);
-  --color-muted-foreground: hsl(218 14% 48%);
+  --color-muted: hsl(0 0% 93%);
+  --color-muted-foreground: hsl(0 0% 45%);
 
-  --color-accent: hsl(220 20% 95%);
-  --color-accent-foreground: hsl(222 25% 10%);
+  --color-accent: hsl(142 20% 94%);
+  --color-accent-foreground: hsl(0 0% 7%);
 
   --color-destructive: hsl(0 84% 60%);
   --color-destructive-foreground: hsl(0 0% 100%);
 
-  --color-border: hsl(220 15% 88%);
-  --color-input: hsl(220 15% 88%);
-  --color-ring: hsl(234 76% 58%);
+  --color-border: hsl(0 0% 88%);
+  --color-input: hsl(0 0% 88%);
+  --color-ring: hsl(142 60% 40%);
 
-  --color-score-high: hsl(234 76% 52%);
-  --color-score-high-bg: hsl(234 76% 94%);
-  --color-score-green: hsl(142 60% 32%);
-  --color-score-green-bg: hsl(142 60% 93%);
+  --color-score-high: hsl(142 60% 32%);
+  --color-score-high-bg: hsl(142 60% 92%);
+  --color-score-green: hsl(142 50% 38%);
+  --color-score-green-bg: hsl(142 50% 92%);
   --color-score-amber: hsl(38 90% 40%);
   --color-score-amber-bg: hsl(38 90% 93%);
 
-  --color-chip-selected: hsl(234 76% 58%);
+  --color-chip-selected: hsl(142 60% 40%);
   --color-chip-selected-foreground: hsl(0 0% 100%);
 
   --radius: 0.75rem;
@@ -50,8 +50,8 @@
 }
 
 body {
-  background-color: hsl(220 25% 97%);
-  color: hsl(222 25% 10%);
+  background-color: hsl(0 0% 98%);
+  color: hsl(0 0% 7%);
   font-family: "Inter", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
