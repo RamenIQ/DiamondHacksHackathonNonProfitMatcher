@@ -6,7 +6,7 @@ import { join } from "path";
 const client = new Anthropic();
 
 const rawGrants = JSON.parse(
-  readFileSync(join(process.cwd(), "../data/grants-1.json"), "utf-8")
+  readFileSync(join(process.cwd(), "data/grants-1.json"), "utf-8")
 );
 const rawByOppNum = Object.fromEntries(
   rawGrants.map((g) => [g.opportunity_number, g])

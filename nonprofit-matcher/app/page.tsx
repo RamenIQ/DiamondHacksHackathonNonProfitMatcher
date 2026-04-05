@@ -145,7 +145,7 @@ export default function OrgProfile() {
             <span className="text-primary">your mission</span>
           </h1>
           <p className="mt-3 text-base text-muted-foreground">
-            Tell us about your nonprofit and we'll surface the most relevant foundation grants — ranked by how well they match you.
+            Tell us about your nonprofit and we&apos;ll surface the most relevant foundation grants — ranked by how well they match you.
           </p>
         </div>
       </div>

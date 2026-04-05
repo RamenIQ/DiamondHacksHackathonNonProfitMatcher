@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, startTransition } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
 import GrantDetailModal from "@/components/GrantDetailModal";
@@ -75,16 +75,19 @@ export default function MatchResults() {
       return;
     }
     const parsed = JSON.parse(raw);
-    setMatches(parsed);
-    // Check if this search is already saved
     const orgRaw = sessionStorage.getItem("orgData");
+    let isSaved = false;
     if (orgRaw) {
       const orgData = JSON.parse(orgRaw);
       const existing = getSavedSearches().find(
         (s) => s.orgData.orgName === orgData.orgName && s.orgData.mission === orgData.mission
       );
-      if (existing) setSaved(true);
+      if (existing) isSaved = true;
     }
+    startTransition(() => {
+      setMatches(parsed);
+      if (isSaved) setSaved(true);
+    });
   }, [router]);
 
   const sorted = [...matches].sort((a, b) => {

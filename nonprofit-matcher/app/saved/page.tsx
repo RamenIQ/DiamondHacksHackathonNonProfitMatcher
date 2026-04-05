@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, startTransition } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
 import {
@@ -12,7 +12,7 @@ import {
   type SavedSearch,
   type SavedFundraiser,
 } from "@/lib/storage";
-import { Trash2, ArrowRight, Search, Heart, BookmarkX } from "lucide-react";
+import { Trash2, ArrowRight, Search, Heart } from "lucide-react";
 
 type Tab = "grants" | "fundraisers";
 
@@ -27,8 +27,10 @@ export default function SavedPage() {
   const [fundraisers, setFundraisers] = useState<SavedFundraiser[]>([]);
 
   useEffect(() => {
-    setSearches(getSavedSearches());
-    setFundraisers(getSavedFundraisers());
+    startTransition(() => {
+      setSearches(getSavedSearches());
+      setFundraisers(getSavedFundraisers());
+    });
   }, []);
 
   function loadSearch(s: SavedSearch) {

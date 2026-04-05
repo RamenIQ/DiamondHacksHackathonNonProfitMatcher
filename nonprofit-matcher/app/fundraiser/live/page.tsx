@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, startTransition } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
 import DonationModal from "@/components/DonationModal";
@@ -48,12 +48,13 @@ export default function FundraiserLive() {
     const raw = sessionStorage.getItem("fundraiserResult");
     if (!raw) { router.push("/fundraiser"); return; }
     const parsed = JSON.parse(raw);
-    setCampaign(parsed);
-    // Check if already saved
     const existing = getSavedFundraisers().find(
       (f) => f.orgName === parsed.orgName && f.campaign.campaign_title === parsed.campaign_title
     );
-    if (existing) setSavedCampaign(true);
+    startTransition(() => {
+      setCampaign(parsed);
+      if (existing) setSavedCampaign(true);
+    });
   }, [router]);
 
   const handleDonationSuccess = (amount: number) => {

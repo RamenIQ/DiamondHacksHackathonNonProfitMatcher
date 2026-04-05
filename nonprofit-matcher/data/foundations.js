@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 
 const raw = JSON.parse(
-  readFileSync(join(process.cwd(), '../data/grants-1.json'), 'utf-8')
+  readFileSync(join(process.cwd(), 'data/grants-1.json'), 'utf-8')
 );
 
 function formatGrantRange(floor, ceiling) {

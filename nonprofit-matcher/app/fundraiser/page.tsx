@@ -205,7 +205,7 @@ export default function FundraiserWizard() {
             <>
               <div className="border-b border-border px-6 py-5">
                 <h2 className="text-base font-semibold text-foreground">Tell us about your organization</h2>
-                <p className="mt-0.5 text-sm text-muted-foreground">We'll use this to personalize your campaign.</p>
+                <p className="mt-0.5 text-sm text-muted-foreground">We&apos;ll use this to personalize your campaign.</p>
               </div>
               <div className="space-y-6 px-6 py-6">
                 <div>
@@ -279,7 +279,7 @@ export default function FundraiserWizard() {
                     onChange={(e) => set("purpose")(e.target.value)}
                     className={`${inputClass} resize-none`}
                   />
-                  <p className="mt-1.5 text-xs text-muted-foreground">Describe the specific need, project, or program you're funding.</p>
+                  <p className="mt-1.5 text-xs text-muted-foreground">Describe the specific need, project, or program you&apos;re funding.</p>
                 </div>
                 <div>
                   <label className="mb-2 block text-sm font-medium text-foreground">Who will this help?</label>
