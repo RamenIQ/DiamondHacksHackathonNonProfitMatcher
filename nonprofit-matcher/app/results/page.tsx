@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
 import GrantDetailModal from "@/components/GrantDetailModal";
-import { ArrowRight, ChevronDown, ExternalLink, Trophy } from "lucide-react";
+import { ArrowRight, ChevronDown, ExternalLink, Trophy, Bookmark, BookmarkCheck } from "lucide-react";
+import { saveSearch, getSavedSearches } from "@/lib/storage";
 
 interface GrantDetail {
   id: string;
@@ -65,6 +66,7 @@ export default function MatchResults() {
   const [matches, setMatches] = useState<Match[]>([]);
   const [sortBy, setSortBy] = useState<SortKey>("match_score");
   const [selectedGrant, setSelectedGrant] = useState<GrantDetail | null>(null);
+  const [saved, setSaved] = useState(false);
 
   useEffect(() => {
     const raw = sessionStorage.getItem("matchResults");
@@ -72,7 +74,17 @@ export default function MatchResults() {
       router.push("/");
       return;
     }
-    setMatches(JSON.parse(raw));
+    const parsed = JSON.parse(raw);
+    setMatches(parsed);
+    // Check if this search is already saved
+    const orgRaw = sessionStorage.getItem("orgData");
+    if (orgRaw) {
+      const orgData = JSON.parse(orgRaw);
+      const existing = getSavedSearches().find(
+        (s) => s.orgData.orgName === orgData.orgName && s.orgData.mission === orgData.mission
+      );
+      if (existing) setSaved(true);
+    }
   }, [router]);
 
   const sorted = [...matches].sort((a, b) => {
@@ -133,16 +145,35 @@ export default function MatchResults() {
               AI-ranked foundations aligned with your mission
             </p>
           </div>
-          <div className="relative w-fit">
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value as SortKey)}
-              className="appearance-none rounded-xl border border-input bg-white px-4 py-2.5 pr-9 text-sm font-medium text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/30"
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => {
+                const orgRaw = sessionStorage.getItem("orgData");
+                if (!orgRaw) return;
+                saveSearch(JSON.parse(orgRaw), matches);
+                setSaved(true);
+              }}
+              disabled={saved}
+              className={`flex items-center gap-1.5 rounded-xl border px-3.5 py-2.5 text-sm font-medium transition-all ${
+                saved
+                  ? "border-primary/30 bg-primary/10 text-primary cursor-default"
+                  : "border-border text-muted-foreground hover:bg-accent hover:text-foreground"
+              }`}
             >
-              <option value="match_score">Sort by match score</option>
-              <option value="grant_range">Sort by grant amount</option>
-            </select>
-            <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              {saved ? <BookmarkCheck className="h-4 w-4" /> : <Bookmark className="h-4 w-4" />}
+              {saved ? "Saved" : "Save search"}
+            </button>
+            <div className="relative">
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as SortKey)}
+                className="appearance-none rounded-xl border border-input bg-white px-4 py-2.5 pr-9 text-sm font-medium text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/30"
+              >
+                <option value="match_score">Sort by match score</option>
+                <option value="grant_range">Sort by grant amount</option>
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            </div>
           </div>
         </div>
       </div>

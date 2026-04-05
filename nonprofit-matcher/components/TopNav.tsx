@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Check } from "lucide-react";
+import { Check, Bookmark } from "lucide-react";
 
 interface TopNavProps {
   currentStep?: number;
@@ -27,6 +27,19 @@ export default function TopNav({ currentStep = 0 }: TopNavProps) {
           <span className="text-lg font-bold tracking-tight text-foreground">
             Grant<span className="text-primary">Match</span>
           </span>
+        </Link>
+
+        {/* Saved link */}
+        <Link
+          href="/saved"
+          className={`hidden items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-all sm:flex ${
+            pathname === "/saved"
+              ? "border-primary/30 bg-primary/10 text-primary"
+              : "border-border text-muted-foreground hover:bg-accent hover:text-foreground"
+          }`}
+        >
+          <Bookmark className="h-3.5 w-3.5" />
+          Saved
         </Link>
 
         {/* Tab switcher */}

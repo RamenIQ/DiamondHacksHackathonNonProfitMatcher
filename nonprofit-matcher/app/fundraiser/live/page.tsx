@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import TopNav from "@/components/TopNav";
 import DonationModal from "@/components/DonationModal";
-import { ArrowLeft, Share2, Users, Clock, Heart } from "lucide-react";
+import { ArrowLeft, Share2, Users, Clock, Heart, Bookmark, BookmarkCheck } from "lucide-react";
+import { saveFundraiser, getSavedFundraisers } from "@/lib/storage";
 
 interface ImpactItem {
   amount: number;
@@ -41,11 +42,18 @@ export default function FundraiserLive() {
   const [donorCount, setDonorCount] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [savedCampaign, setSavedCampaign] = useState(false);
 
   useEffect(() => {
     const raw = sessionStorage.getItem("fundraiserResult");
     if (!raw) { router.push("/fundraiser"); return; }
-    setCampaign(JSON.parse(raw));
+    const parsed = JSON.parse(raw);
+    setCampaign(parsed);
+    // Check if already saved
+    const existing = getSavedFundraisers().find(
+      (f) => f.orgName === parsed.orgName && f.campaign.campaign_title === parsed.campaign_title
+    );
+    if (existing) setSavedCampaign(true);
   }, [router]);
 
   const handleDonationSuccess = (amount: number) => {
@@ -106,14 +114,41 @@ export default function FundraiserLive() {
           }}
         />
         <div className="relative mx-auto max-w-5xl px-4 py-14 sm:py-20">
-          {/* Back */}
-          <button
-            onClick={() => router.push("/fundraiser")}
-            className="mb-6 flex items-center gap-1.5 text-sm font-medium text-white/60 hover:text-white"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Edit campaign
-          </button>
+          {/* Back + Save */}
+          <div className="mb-6 flex items-center gap-3">
+            <button
+              onClick={() => router.push("/fundraiser")}
+              className="flex items-center gap-1.5 text-sm font-medium text-white/60 hover:text-white"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              Edit campaign
+            </button>
+            <span className="text-white/20">·</span>
+            <button
+              onClick={() => {
+                if (!campaign || savedCampaign) return;
+                saveFundraiser(campaign.orgName, campaign.cause, {
+                  campaign_title: campaign.campaign_title,
+                  tagline: campaign.tagline,
+                  goal_amount: campaign.goal_amount,
+                  days_left: campaign.days_left,
+                  story_paragraphs: campaign.story_paragraphs,
+                  impact_items: campaign.impact_items,
+                  donation_tiers: campaign.donation_tiers,
+                  campaign_type: campaign.campaign_type,
+                  updates: campaign.updates,
+                });
+                setSavedCampaign(true);
+              }}
+              disabled={savedCampaign}
+              className={`flex items-center gap-1.5 text-sm font-medium transition-all ${
+                savedCampaign ? "text-primary cursor-default" : "text-white/60 hover:text-white"
+              }`}
+            >
+              {savedCampaign ? <BookmarkCheck className="h-4 w-4" /> : <Bookmark className="h-4 w-4" />}
+              {savedCampaign ? "Campaign saved" : "Save campaign"}
+            </button>
+          </div>
 
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <span className="rounded-full border border-primary/40 bg-primary/20 px-3 py-1 text-xs font-semibold text-primary-foreground">
